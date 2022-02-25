@@ -37,4 +37,8 @@ A Deep learning programming assignment where we have to develop a Neural Network
  - weight initialisation: random, Xavier
  - activation functions: sigmoid, tanh, ReLU 
 
-to evaluate the model the predicted y from the fit() function can be used or you can refer to the wandb sweeps.
+#### Training the model
+ - to train the model we need to initalise the Neural network with NeuralNetwork() function and Train the model using fit() method
+ 
+#### Evaluating the model
+ - to evaluate the model just pass the test data to fit() function it will display the validation loss, validation accuracy, test loss and test accuracy
